@@ -8,10 +8,10 @@ thoughts in it.
 
 #### JSON format
 
-What are the fields in `top-pypi-packages-30-days.min.json`?
+What are the fields in [top-pypi-packages-30-days.min.json](./top-pypi-packages-30-days.min.json)?
 
 Write a Python program named `read_pypi_json.py`, which:
-1. reads the `top-pypi-packages-30-days.min.json`,
+1. reads the [top-pypi-packages-30-days.min.json](./top-pypi-packages-30-days.min.json),
 2. prints the last_update time of the file, and
 3. prints the names of top 10 projects.
 
@@ -24,7 +24,7 @@ CVE (Common Vulnerabilites and Explosures) records publicly known
 information-security vulnerabilities and exposures. To search the CVE list
 automatically, write a Python program `cve_crawler.py`, which:
 1. uses *requests* package and CVE API,
-2. reads keywords (per each line) from `repos.txt`, and
+2. reads keywords (per each line) from [repos.txt](./repos.txt), and
 3. returns a JSON file named `keyword.json` for each keyword.
 
 See [Python requests](https://docs.python-requests.org/en/latest/),
