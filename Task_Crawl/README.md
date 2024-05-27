@@ -23,7 +23,7 @@ more information.
 CVE (Common Vulnerabilites and Explosures) records publicly known
 information-security vulnerabilities and exposures. To search the CVE list
 automatically, write a Python program `cve_crawler.py`, which:
-1. uses *requests* package and CVE API,
+1. uses requests package and CVE API,
 2. reads keywords (per each line) from [repos.txt](./repos.txt), and
 3. returns a JSON file named `keyword.json` for each keyword.
 
